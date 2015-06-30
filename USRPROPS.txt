@@ -20,3 +20,6 @@ DEFINITION "Change Request"
 	PROPERTY "Supervising Manager" { EDIT text LENGTH 45 }
 	PROPERTY "On time" { Edit Boolean Length 1 DEFAULT "T" }
 }
+
+REM "New code in development"
+REM "**************************"
