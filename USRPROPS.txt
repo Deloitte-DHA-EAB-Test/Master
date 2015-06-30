@@ -1,0 +1,22 @@
+LIST "Processor Scheduling"
+{
+	VALUE "preemptive"
+	VALUE "nonpreemptive"
+}
+
+DEFINITION "Hardware Processor"
+PROPERTY "Scheduling"
+{ 
+	EDIT text LIST "Processor Scheduling" LENGTH 20
+	DISPLAY { 
+		LEGEND "Sched"
+	}
+}
+
+DEFINITION "Change Request"
+{
+	LAYOUT { COLS 2 TAB ALIGN LABEL }
+	PROPERTY "Author Name" { LABEL "Client Division" }
+	PROPERTY "Supervising Manager" { EDIT text LENGTH 45 }
+	PROPERTY "On time" { Edit Boolean Length 1 DEFAULT "T" }
+}
