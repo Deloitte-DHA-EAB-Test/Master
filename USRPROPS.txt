@@ -20,3 +20,15 @@ DEFINITION "Change Request"
 	PROPERTY "Supervising Manager" { EDIT text LENGTH 45 }
 	PROPERTY "On time" { Edit Boolean Length 1 DEFAULT "T" }
 }
+
+REM "New code in development"
+REM "**************************"
+
+DEFINITION "Change Request"
+{
+	LAYOUT { COLS 2 TAB ALIGN LABEL }
+	PROPERTY "Impact StatementÎéÎí { EDIT text LENGTH 100 }
+	PROPERTY "Author Name" { LABEL "Client Division" }
+	PROPERTY "Supervising Manager" { EDIT text LENGTH 45 }
+	PROPERTY "On time" { Edit Boolean Length 1 DEFAULT "T" }
+}
