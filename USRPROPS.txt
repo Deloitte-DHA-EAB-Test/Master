@@ -29,3 +29,11 @@ DEFINITION "Change Request"
 	PROPERTY "Supervising Manager" { EDIT text LENGTH 45 }
 	PROPERTY "On time" { Edit Boolean Length 1 DEFAULT "T" }
 }
+
+List "Method Stereotypes"
+{
+	VALUE Get
+	VALUE Let
+	VALUE Set
+	VALUE “Stereotype with embedded spaces”
+}
